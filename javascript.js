@@ -1,11 +1,18 @@
 window.addEventListener("load",init)
-function myfunction(){
-    document.getElementById("buton").innerHTML = "Recep";
 
+
+function logolar_enter(){
+    
 
 }
-function init(){
-    document.getElementById("buton").addEventListener("click",myfunction);
-    document.getElementById("").addEventListener("")
+function logolar_out(){
 
+}
+function yazi_yazdir(){
+    document.getElementById("paragraf").innerHTML = "İsmim Recep Karabulut";
+}
+        
+function init(){
+    document.getElementById("yazma").addEventListener("click",yazi_yazdir);
+    
 }

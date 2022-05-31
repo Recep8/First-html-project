@@ -4,6 +4,7 @@ body{
 }
 
 nav{
+   margin-top: 0px;
    display: flex;
    justify-content: center;
    background-color: plum;
@@ -22,7 +23,7 @@ nav{
 }
 
 .nav li a{
-   background-color: plum;
+   background-color:plum ;
    width:100%;
    font-size: 35px;
    height:100%;
@@ -52,9 +53,70 @@ nav{
    color: black;
    margin:4px;
 }
+.about-diller{
+   margin-top: 50px;
+   margin-left:0px;
+   padding: 0px;
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+   background-color: #800080;
+   width: 100%;
+   height: 100%;
+
+}
+.about {
+   margin-left: 0px;
+   margin-top: 160px;
+   width: 500px;
+   height: 700px;
+   background-color: #708090;
+}
+
+.about .paragraf{
+   width: auto;
+   height: auto;
+   background-color:#708090 ;
+   font-size:30px;  
+   margin: 10px;
+   color:#708090 ;
+}
+
+.diller-container {
+   
+   display: grid;
+   grid-template-columns: auto auto auto;
+   margin-right: 100px;
+   padding: 10px;
+   margin-top: 350px;
+   width: 700px;
+   height: 460px;
+   margin-left: 0px;
+   background-color: #708090;
+   
+}
+.diller .grid-item{
+   background-color: rgba(255, 255, 255, 0.8);
+   border: 1px solid rgba(0, 0, 0, 0.8);
+   padding: 50px;
+   text-align: center;
+   object-fit:cover;
+
+}
+
+#yazma{
+   margin-left: 50px;
+   text-align: center;
+   margin-top: 55px;   
+   background-color:plum ;
+   height: 100px;
+   width: 400px;
+   font-family: 'Courier New', Courier, monospace;
+   font-size:large;
+}
 
 .footer-dark {
-   margin-top:350px ;
+   margin-top: 0px; ;
    padding: 50px 0;
    height: 150px;
    color: #f0f9ff;
@@ -75,11 +137,11 @@ nav{
 }
 
 .footer-dark ul{ 
-padding: 0;
-list-style: none;
-line-height: 1.6;
-font-size: 14px;
-margin-bottom: 0;
+   padding: 0;
+   list-style: none;
+   line-height: 1.6;
+   font-size: 14px;
+   margin-bottom: 0;
 }
 
 .footer-dark ul a{ 
@@ -90,40 +152,4 @@ margin-bottom: 0;
 
 .footer-dark ul a:hover{
    opacity: 0.8;
-}
-
-.about {
-   margin-top: 130px;
-   padding: 0px;
-   width: 100%;
-   height: 90px;
-
-}
-
-.about p{
-   background-color: #708090;
-   font-size:30px;  
-}
-.flex2{
-   margin:0px;
-   display: flex;
-   justify-content: space-around;
-   background-color: #800080;
-   width: 100%;
-   height: 100%;
-
-}
-.diller {
-   margin-top: 160px;
-   width: 100%;
-   height: 90px;
-   margin-left: 160px;
-   background-color: #708090;
-}
-.diller ul{
-padding: 5px;
-list-style: none;
-line-height: 1.6;
-font-size: 14px;
-margin-bottom: 0;
 }
