@@ -71,6 +71,7 @@ nav{
    width: 500px;
    height: 700px;
    background-color: #708090;
+   border: 5px solid rgba(0, 0, 0, 0.8);
 }
 
 .about .paragraf{
@@ -79,7 +80,11 @@ nav{
    background-color:#708090 ;
    font-size:30px;  
    margin: 10px;
-   color:#708090 ;
+   color:gold ;
+}
+.about #yazma:hover{
+   background-color: blueviolet;
+   transition: 1.5s;
 }
 
 .diller-container {
@@ -105,14 +110,13 @@ nav{
 }
 
 #yazma{
-   margin-left: 50px;
+   background-color:chocolate ;
+   margin-top: 75px;
+   margin-left: 20px;
    text-align: center;
-   margin-top: 55px;   
-   background-color:plum ;
-   height: 100px;
-   width: 400px;
+   font-size: large;
    font-family: 'Courier New', Courier, monospace;
-   font-size:large;
+   height: 75px;
 }
 
 .footer-dark {
